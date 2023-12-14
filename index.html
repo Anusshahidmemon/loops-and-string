@@ -11,13 +11,23 @@
 
 
     <script>
- let gameNum = 25;
- let userNum = prompt("Guess the game Number");
+//  let gameNum = 25;
+//  let userNum = prompt("Guess the game Number");
 
- while (userNum != gameNum){
-    userNum = prompt( "you entr the wrong Number. plz try again!");
- }
-console.log("you enter the right Number")
+//  while (userNum != gameNum){
+//     userNum = prompt( "you entr the wrong Number. plz try again!");
+//  }
+// console.log("you enter the right Number")
+
+// template Literals
+// let specialStrings = `This is a template literal` 
+// console.log(typeof specialStrings)
+
+
+let fullName = prompt ("Enter Your Full Name without spaces")
+let userName = '@' + fullName + fullName.length;
+console.log(userName)
+
     </script>
 </body>
 </html>
